@@ -9,6 +9,18 @@
 		pStyle,
 		a_style
 	} from '$lib/global';
+
+
+ const images = [
+    'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic1-HXbEj2b27fe27ZWisKCBVKsuahm9zo.png',
+    'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic2-zHOvTA5yt5xxYte3mEtElM85RjUlXy.png',
+    'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic3-sCYKbXlTpOwJRP0yX20WHnmhXz8G0F.png',
+    'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic4-OzLZcCKm2uSMDxu5urN6LcMuVOf9Lh.png'
+ ];
+
+ // Define the desired interval and fade durations
+ const intervalDuration = 4000;
+ const fadeDuration = 500;
 </script>
 
 <section class={sectionStyle}>
@@ -32,7 +44,10 @@
 			<a href="/about-me" class={a_style}>About Me</a>
 		</div>
 		<div class={divCarouselStyle}>
-			<Carousel />
+
+<Carousel {images} intervalDuration={intervalDuration} fadeDuration={fadeDuration} />
+
+			
 		</div>
 	</div>
 </section>
