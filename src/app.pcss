@@ -28,11 +28,11 @@
 	h5,
 	h6,
 	blockquote {
-		@apply noto  p-1 m-1 leading-tight font-thin  tracking-wider text-neutral-900  antialiased dark:text-neutral-100;
+		@apply text font-thin  tracking-wider;
 	}
 
 	p {
-		@apply noto text-base text-justify p-1 m-1 leading-tight font-light dark:font-thin tracking-tighter text-neutral-900  antialiased dark:text-neutral-100;
+		@apply text text-justify  font-light dark:font-thin tracking-tighter;
 	}
 
 	img,
@@ -124,5 +124,8 @@
 @layer utilities {
 	.noto {
 		font-family: 'Noto Sans Variable', sans-serif;
+	}
+	.text {
+		@apply noto text-base  p-1 m-1 leading-tight tracking-tighter text-neutral-900  antialiased dark:text-neutral-100;
 	}
 }
