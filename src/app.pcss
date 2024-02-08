@@ -39,7 +39,7 @@
 	header,
 	nav,
 	.hero_container {
-		@apply noto text-justify text-base leading-none tracking-tight text-neutral-900 subpixel-antialiased dark:text-neutral-100;
+		@apply noto p-[2px] m-[2px] text-justify text-base leading-none tracking-tight text-neutral-900 subpixel-antialiased dark:text-neutral-100;
 	}
 
 	img,
@@ -131,6 +131,14 @@
 @layer utilities {
 	.noto {
 		font-family: 'Noto Sans Variable', sans-serif;
-		font-weight: 100; /* Thin */
+	}
+	.padmar {
+		@apply p-[2px] m-[2px];
+	}
+	.text {
+		@apply noto leading-none font-light dark:font-thin tracking-tight text-black text-base subpixel-antialiased dark:text-neutral-50;
+	}
+	.paragraph {
+		@apply padmar text;
 	}
 }
