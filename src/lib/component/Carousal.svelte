@@ -1,15 +1,14 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
 	import { sectionStyle } from '$lib/global';
-	const images = [
-		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic1-HXbEj2b27fe27ZWisKCBVKsuahm9zo.png',
-		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic2-zHOvTA5yt5xxYte3mEtElM85RjUlXy.png',
-		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic3-sCYKbXlTpOwJRP0yX20WHnmhXz8G0F.png',
-		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic4-OzLZcCKm2uSMDxu5urN6LcMuVOf9Lh.png'
-	];
+	
+	export let images = []; // Array of image URLs
+	export let intervalDuration = 5000; // Duration between image changes
+	export let fadeDuration = 300; // Fade in/out duration
+
 	import { onMount } from 'svelte';
 	onMount(() => {
-		const interval = setInterval(updateIndex, 5000);
+		const interval = setInterval(updateIndex, intervalDuration);
 		return () => clearInterval(interval);
 	});
 
@@ -22,13 +21,12 @@
 </script>
 
 <div class={sectionStyle}>
-	<!-- Adjust width and height as needed -->
 	{#each images as image, index}
 		<li
 			class="clearfix -mr-4 -mt-6 overflow-x-hidden bg-neutral-300"
 			class:hidden={index !== currentIndex}
-			in:fade={{ duration: 300 }}
-			out:fade={{ duration: 300 }}
+			in:fade={{ duration: fadeDuration }}
+			out:fade={{ duration: fadeDuration }}
 		>
 			<img src={image} alt={`Image ${index}`} />
 		</li>
