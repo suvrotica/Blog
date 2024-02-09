@@ -17,9 +17,24 @@
 	font-style: italic;
 }
 
+@layer utilities {
+	.noto {
+		font-family: 'Noto Sans Variable', sans-serif;
+	}
+	.text {
+		@apply noto text-base  p-1 m-1 leading-tight tracking-tighter text-neutral-900  antialiased dark:text-neutral-100;
+	}
+	.radialDark {
+		background: radial-gradient(#333, #000);
+	}
+	.radialLight {
+		background: radial-gradient(#bbb, #fff);
+	}
+}
+
 @layer base {
 	body {
-		@apply bg-neutral-100 dark:bg-neutral-950 text-neutral-950 dark:text-neutral-100 text-center;
+		@apply radialLight dark:radialDark text-neutral-950 dark:text-neutral-100 text-center;
 	}
 	h1,
 	h2,
@@ -118,14 +133,5 @@
 
 	blockquote {
 		@apply border-l-4 border-neutral-400 pl-4 text-2xl;
-	}
-}
-
-@layer utilities {
-	.noto {
-		font-family: 'Noto Sans Variable', sans-serif;
-	}
-	.text {
-		@apply noto text-base  p-1 m-1 leading-tight tracking-tighter text-neutral-900  antialiased dark:text-neutral-100;
 	}
 }
