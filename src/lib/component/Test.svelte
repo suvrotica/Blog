@@ -2,14 +2,16 @@
 
 const envelopeStyle="md:flex";
 
+export let figCaption="Suvro Ghosh";
 
 </script>
-<section>
-  <div class="md:grid md:grid-cols-3 md:gap-4">
-    
-      <img src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt="Suvro Ghosh">
-    
-    <div class="md:col-span-2">
+<section class="md:grid md:grid-cols-3 md:gap-4">
+            <figure>
+                <img src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt={figCaption}>
+                <figcaption>{figCaption}</figcaption>
+            </figure>
+      
+    <article class="md:col-span-2">
       <h4>About this blog</h4>
       <h5>The Ghosh Who Shits</h5>
       <p>Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of my
@@ -23,6 +25,5 @@ const envelopeStyle="md:flex";
 	seasoned simulationist or a curious commoner, an android or an amateur, a ponderer or a
 	pragmatist, join me in the infinite mosaic of collective nonsense we can explore.
       </p>
-    </div>
-  </div>
+    </article>
 </section>
