@@ -12,8 +12,8 @@ export let figCaption="Suvro Ghosh";
             </figure>
       
     <article class="md:col-span-2">
-      <h4>About this blog</h4>
-      <h5>The Ghosh Who Shits</h5>
+      <h1>About this blog</h1>
+      
       <p>Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of my
 	embarrassing tangle of nerves, unrelated fancies and figments strewn around and rattling loose in
 	it, collectibles from the waste basket scraps that should have seen a shredder, or, somewhat more
