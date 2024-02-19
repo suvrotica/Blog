@@ -7,7 +7,7 @@ const envelopeStyle="md:flex";
 <section>
   <div class="md:grid md:grid-cols-3 md:gap-4">
     
-      <img class="imgPhoto" src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt="Suvro Ghosh">
+      <img src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt="Suvro Ghosh">
     
     <div class="md:col-span-2">
       <h4>About this blog</h4>
