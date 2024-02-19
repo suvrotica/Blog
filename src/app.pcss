@@ -18,11 +18,14 @@
 }
 
 @layer utilities {
+        .padmar {
+               @apply p-2 m-2;
+        }
 	.noto {
 		font-family: 'Noto Sans Variable', sans-serif;
 	}
 	.text {
-		@apply noto text-base  p-1 m-1 leading-tight tracking-tighter text-neutral-900  antialiased dark:text-neutral-100;
+		@apply noto text-base padmar leading-tight tracking-tighter text-neutral-900  antialiased dark:text-neutral-100;
 	}
 	.radialDark {
 		background: radial-gradient(#333, #000);
@@ -59,7 +62,7 @@
 	.hero_container,
 	.hero_container_content,
 	.hero_container_media {
-		@apply p-2 m-2;
+		@apply padmar;
 	}
 
 	h1 {
