@@ -5,7 +5,7 @@ const envelopeStyle="md:flex";
 
 </script>
 <section>
-  <div class="grid grid-cols-2 gap-4>
+  <div class="grid grid-cols-2 gap-4">
     
       <img src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt="Suvro Ghosh">
     
