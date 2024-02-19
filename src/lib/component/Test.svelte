@@ -1,17 +1,15 @@
 <script lang="ts">
 
-const envelopeStyle="md:flex";
-
-export let figCaption="Suvro Ghosh";
+export let figCaption="SuvroGhosh.BLOG";
 
 </script>
-<section class="md:grid md:grid-cols-3 md:gap-4">
+<section>
             <figure>
                 <img src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt={figCaption}>
                 <figcaption>{figCaption}</figcaption>
             </figure>
       
-    <article class="md:col-span-2">
+    <article>
       <h1>About this blog</h1>
       
       <p>Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of my
