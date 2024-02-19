@@ -5,11 +5,11 @@ const envelopeStyle="md:flex";
 
 </script>
 <section>
-  <div class="grid grid-cols-3 gap-4">
+  <div class="md:grid md:grid-cols-3 md:gap-4">
     
       <img src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt="Suvro Ghosh">
     
-    <div class="col-span-2">
+    <div class="md:col-span-2">
       <h1 class="uppercase text-sm font-semibold">About this blog</h1>
       <h2 class="block mt-1 text-lg leading-tight font-medium hover:underline">The Ghosh Who Shits</h2>
       <p>Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of my
