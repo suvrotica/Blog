@@ -1,12 +1,12 @@
-<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+<div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl">
   <div class="md:flex">
     <div class="md:shrink-0">
-      <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt="Modern building architecture">
+      <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt="Suvro Ghosh">
     </div>
     <div class="p-8">
-      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
-      <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
-      <p class="mt-2 text-slate-500">Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of my
+      <div class="uppercase text-sm font-semibold">About this blog</div>
+      <a href="/" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">The Ghosh Who Shits</a>
+      <p class="mt-2">Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of my
 	embarrassing tangle of nerves, unrelated fancies and figments strewn around and rattling loose in
 	it, collectibles from the waste basket scraps that should have seen a shredder, or, somewhat more
 	crudely, everything about anything. I'm not a prisoner to the usual boundaries that limit most
