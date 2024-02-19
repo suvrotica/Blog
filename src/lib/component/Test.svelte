@@ -7,7 +7,7 @@ const envelopeStyle="md:flex";
 <section>
   <div class="md:flex">
     <div class="md:shrink-0">
-      <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt="Suvro Ghosh">
+      <img src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt="Suvro Ghosh">
     </div>
     
       <h1 class="uppercase text-sm font-semibold">About this blog</h1>
