@@ -105,7 +105,7 @@
 	header,
 	nav,
 	.hero_container {
-		@apply m-0 bg-neutral-100 dark:bg-neutral-900;
+		@apply padmar bg-neutral-100 dark:bg-neutral-900;
 	}
 
 	footer {
@@ -115,6 +115,13 @@
 	nav {
 		@apply flex items-center justify-between;
 	}
+
+        section {
+                @apply md:grid md:grid-cols-3;
+        }
+        article {
+                @apply md:col-span-2;
+        }
 }
 
 @layer components {
