@@ -1,9 +1,15 @@
-<div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+<script lang="ts">
+
+const envelopeStyle="md:flex";
+
+
+</script>
+<section>
   <div class="md:flex">
     <div class="md:shrink-0">
       <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt="Suvro Ghosh">
     </div>
-    <div class="p-8">
+    
       <h1 class="uppercase text-sm font-semibold">About this blog</h1>
       <h2 class="block mt-1 text-lg leading-tight font-medium hover:underline">The Ghosh Who Shits</h2>
       <p class="mt-2">Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of my
@@ -16,6 +22,6 @@
 	realms of human feats and foibles, fucks and farts, feces and fraternities. So whether you're a
 	seasoned simulationist or a curious commoner, an android or an amateur, a ponderer or a
 	pragmatist, join me in the infinite mosaic of collective nonsense we can explore.</p>
-    </div>
+    
   </div>
-</div>
+</section>
