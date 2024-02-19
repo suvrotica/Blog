@@ -1,6 +1,12 @@
-<h1>Hello</h1>
-<p>
-	Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of my
+<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+  <div class="md:flex">
+    <div class="md:shrink-0">
+      <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240112-WA0001-x3fHkx8kppU2AWVrincv0q8Km6reBL.jpg" alt="Modern building architecture">
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+      <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
+      <p class="mt-2 text-slate-500">Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of my
 	embarrassing tangle of nerves, unrelated fancies and figments strewn around and rattling loose in
 	it, collectibles from the waste basket scraps that should have seen a shredder, or, somewhat more
 	crudely, everything about anything. I'm not a prisoner to the usual boundaries that limit most
@@ -9,5 +15,7 @@
 	nonsense than anything of substance. But here I explore, when I still can, the vast and forbidden
 	realms of human feats and foibles, fucks and farts, feces and fraternities. So whether you're a
 	seasoned simulationist or a curious commoner, an android or an amateur, a ponderer or a
-	pragmatist, join me in the infinite mosaic of collective nonsense we can explore.
-</p>
+	pragmatist, join me in the infinite mosaic of collective nonsense we can explore.</p>
+    </div>
+  </div>
+</div>
