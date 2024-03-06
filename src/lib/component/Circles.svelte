@@ -2,8 +2,9 @@
 	import { scaleLinear } from 'd3';
 
 	import Circle from '$lib/component/CircleSVG.svelte';
+	import type { N } from 'vitest/dist/reporters-1evA5lom';
 
-	let data: { a: Number; b: Number; r: Number; fill: String }[] = $state([]);
+	let data: { a: number; b: number; r: number; fill: string }[] = $state([]);
 	setInterval(() => {
 		data = Array.from({ length: 1000 }).map(() => {
 			return {
