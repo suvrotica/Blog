@@ -2,7 +2,6 @@
 	import { scaleLinear } from 'd3';
 
 	import Circle from '$lib/component/CircleSVG.svelte';
-	import type { N } from 'vitest/dist/reporters-1evA5lom';
 
 	let data: { a: number; b: number; r: number; fill: string }[] = $state([]);
 	setInterval(() => {
@@ -29,7 +28,7 @@
 			.range([5, width / 10])
 	);
 </script>
-
+<!-- this is the canvas -->
 <figure bind:clientWidth={width} bind:clientHeight={height}>
 	<svg {width} {height}>
 		{#each data as { a, b, r, fill }}
