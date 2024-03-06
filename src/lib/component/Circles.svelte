@@ -1,38 +1,21 @@
 <script lang="ts">
-	import { scaleLinear } from 'd3';
-
+	import { writable } from 'svelte/store';
+	import { createScales } from '$lib/D3Helpers';
+	import DataSeeder from '$lib/component/DataSeeder.svelte';
 	import Circle from '$lib/component/CircleSVG.svelte';
-
-	let data: { a: number; b: number; r: number; fill: string }[] = $state([]);
-	setInterval(() => {
-		data = Array.from({ length: 1000 }).map(() => {
-			return {
-				a: Math.random(),
-				b: Math.random(),
-				r: Math.random(),
-				fill: `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`
-			};
-		});
-	}, 2000);
-
-	let width = $state(1000);
-	let height = $state(500);
-
-	const xScale = $derived(scaleLinear().domain([0, 1]).range([0, width]));
-
-	const yScale = $derived(scaleLinear().domain([0, 1]).range([height, 0]));
-
-	const rScale = $derived(
-		scaleLinear()
-			.domain([0, 1])
-			.range([5, width / 10])
-	);
-</script>
-<!-- this is the canvas -->
-<figure bind:clientWidth={width} bind:clientHeight={height}>
-	<svg {width} {height}>
-		{#each data as { a, b, r, fill }}
-			<Circle cx={xScale(a)} cy={yScale(b)} r={rScale(r)} {fill} />
-		{/each}
-	</svg>
-</figure>
+  
+	const widthStore = writable(0);
+	const heightStore = writable(0);
+  
+	const { xScale, yScale, rScale } = createScales(widthStore, heightStore);
+  
+	let data: { a: number; b: number; r: number; fill: string }[] = [];
+  </script>
+  
+  <DataSeeder bind:data />
+  
+  <svg id="Circles" bind:clientWidth={$widthStore} bind:clientHeight={$heightStore}>
+	{#each data as { a, b, r, fill }}
+	  <Circle cx={$xScale(a)} cy={$yScale(b)} r={$rScale(r)} {fill} />
+	{/each}
+  </svg>
