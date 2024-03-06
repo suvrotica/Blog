@@ -1,5 +1,5 @@
 <script lang="ts">
-	let { cx, cy, r, fill } = $props();
+	let { cx=0, cy=0, r=0, fill="#000" } = $props();
 </script>
 
 <circle {cx} {cy} {r} {fill} />
