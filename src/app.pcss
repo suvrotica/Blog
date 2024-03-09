@@ -18,9 +18,9 @@
 }
 
 @layer utilities {
-        .padmar {
-               @apply p-1 m-1;
-        }
+	.padmar {
+		@apply p-1 m-1;
+	}
 	.noto {
 		font-family: 'Noto Sans Variable', sans-serif;
 	}
@@ -53,12 +53,12 @@
 		@apply text text-justify   font-extralight dark:font-thin tracking-tighter;
 	}
 
-        figcaption {
-                @apply text font-thin;
-        }
+	figcaption {
+		@apply text font-thin;
+	}
 
 	img,
-        figure,
+	figure,
 	footer,
 	article,
 	section,
@@ -117,19 +117,18 @@
 		@apply flex items-center justify-between;
 	}
 
-        section {
-                @apply md:grid md:grid-cols-3;
-        }
-        article {
-                @apply md:col-span-2;
-        }
-        figure {
-                @apply flex flex-col items-center;
-        }
-		svg
-		{
-			@apply w-screen h-screen;
-		}
+	section {
+		@apply md:grid md:grid-cols-3;
+	}
+	article {
+		@apply md:col-span-2;
+	}
+	figure {
+		@apply flex flex-col items-center;
+	}
+	svg {
+		@apply w-full h-screen  my-4;
+	}
 }
 
 @layer components {
@@ -141,9 +140,9 @@
 		@apply block rounded bg-neutral-300 py-0 pl-3 pr-4 text-base text-neutral-950 hover:bg-neutral-400 md:bg-transparent md:text-neutral-600 md:hover:bg-transparent md:hover:text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-600 dark:hover:text-neutral-300;
 	}
 
-        img {
-                @apply h-full rounded-lg md:h-96;
-        }
+	img {
+		@apply h-full rounded-lg md:h-96;
+	}
 
 	.span_underlined {
 		@apply text-2xl underline decoration-neutral-400 decoration-8 underline-offset-4;
