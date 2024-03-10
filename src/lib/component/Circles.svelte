@@ -10,10 +10,11 @@
 	const { xScale, yScale, rScale } = createScales(widthStore, heightStore);
   
 	let data: { a: number; b: number; r: number; fill: string }[] = [];
+	
   </script>
   
   <DataSeeder bind:data />
-  
+  <hr>
   <svg id="Circles" bind:clientWidth={$widthStore} bind:clientHeight={$heightStore}>
 	{#each data as { a, b, r, fill }}
 	  <Circle cx={$xScale(a)} cy={$yScale(b)} r={$rScale(r)} {fill} />
