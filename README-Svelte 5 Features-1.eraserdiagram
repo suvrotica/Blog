@@ -1,0 +1,13 @@
+flowchart-diagram
+
+
+title Svelte 5 Features
+
+// Define nodes and relationships
+Start [shape: oval, icon: flag] > Improved TypeScript support [icon: typescript]
+Improved TypeScript support > Better Store API [icon: database]
+Better Store API > Simplified syntax [icon: code]
+Simplified syntax > Enhanced reactivity [icon: zap]
+Enhanced reactivity > Compiler optimizations [icon: gear]
+Compiler optimizations > End [shape: oval, icon: check]
+
