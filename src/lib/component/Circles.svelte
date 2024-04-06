@@ -28,7 +28,7 @@
 		  stroke="currentColor"
 		  stroke-width="2"
 		/>
-		<text x="10" y={$heightStore / 2} text-anchor="middle" dominant-baseline="middle" transform="rotate(-90, 10, y={$heightStore / 2})" fill="currentColor">Y-axis</text>
+		<text x="10" y={$heightStore / 2} text-anchor="middle" dominant-baseline="middle" transform="rotate(0, 10, y={$heightStore / 2})" fill="currentColor">Y-axis</text>
 	  </svg>
 	</div>
   
