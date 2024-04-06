@@ -24,7 +24,7 @@
                   x1="30"
 		  y1={$yScale.range()[0]}
 		  x2="30"
-		  y2={$yScale.range()[1]+$yScale.range()[0]}
+		  y2={$yScale.range()[1]+10}
 		  stroke="currentColor"
 		  stroke-width="2"
 		/>
@@ -45,7 +45,7 @@
 	  <line
 		x1="30"
 		y1="10"
-		x2={$xScale.range()[1]+$xScale.range()[0]}
+		x2={$xScale.range()[1]+30}
 		y2="10"
 		stroke="currentColor"
 		stroke-width="2"
