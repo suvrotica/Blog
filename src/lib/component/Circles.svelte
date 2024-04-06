@@ -24,7 +24,7 @@
                   x1="30"
 		  y1={$yScale.range()[0]}
 		  x2="30"
-		  y2={$yScale.range()[1]}
+		  y2={$yScale.range()[1]}+$yScale.range()[0]}
 		  stroke="currentColor"
 		  stroke-width="2"
 		/>
