@@ -21,7 +21,7 @@
 	<div class="y-axis">
 	  <svg width="40" height={$heightStore}>
 		<line
-                  x1={$xScale.range()[0]}
+                  x1="30"
 		  y1={$yScale.range()[0]}
 		  x2="30"
 		  y2={$yScale.range()[1]}
@@ -43,7 +43,7 @@
   <div class="x-axis">
 	<svg width={$widthStore} height="40">
 	  <line
-		x1={$xScale.range()[0]}
+		x1="30"
 		y1="10"
 		x2={$xScale.range()[1]}
 		y2="10"
