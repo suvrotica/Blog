@@ -60,7 +60,7 @@
 	}
   
 	.y-axis {
-	  @apply mr-4;
+	  @apply mr-1;
 	}
   
 	#Circles {
@@ -68,6 +68,6 @@
 	}
   
 	.x-axis {
-	  @apply mr-4 mt-4;
+	  @apply mt-4;
 	}
   </style>
