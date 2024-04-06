@@ -59,15 +59,11 @@
 	  @apply flex justify-center items-center;
 	}
   
-	.y-axis {
-	  @apply mr-1;
-	}
+	
   
 	#Circles {
 	  @apply w-full h-screen border;
 	}
   
-	.x-axis {
-	  @apply mt-4;
-	}
+	
   </style>
