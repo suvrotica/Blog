@@ -68,6 +68,6 @@
 	}
   
 	.x-axis {
-	  @apply mt-4;
+	  @apply mr-4 mt-4;
 	}
   </style>
